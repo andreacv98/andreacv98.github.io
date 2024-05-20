@@ -1,6 +1,4 @@
 baseURL: https://andreacv98.github.io/
-languageCode: en-us
-title: Andrea Colli-Vignarelli's Portfolio
 
 module:
   imports:
@@ -13,15 +11,17 @@ module:
   - source: ./node_modules/katex/dist/fonts
     target: static/fonts
 
-background: "images/name-of-your-background-image.jpg"
-
 # Manage languages
 languages:
   en:
+    languageCode: en
     languageName: English
+    title: Andrea's Portfolio
     weight: 1
   it:
+    languageCode: it
     languageName: Italiano
+    title: Portfolio di Andrea
     weight: 2
 
 # At least HTML and JSON are required for the main HTML content and
@@ -46,9 +46,11 @@ params:
       enable: true
     # Enable Table of contents in reading page
     toc:
-      enable: true
+      enable: false
     darkMode:
       enable: true
   # Configure footer
   footer:
-    enable: true
+    enable: false
+
+  background: "images/general_background_dark.jpg"
