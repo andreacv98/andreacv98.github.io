@@ -1,0 +1,51 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+  - name: Master's Degree in Computer Engineering - Cloud Computing and Computer Networks
+    icon: fa-graduation-cap
+    timeframe: 2020-2023
+    institution:
+      name: Polytechnic of Turin
+      url: "https://www.polito.it/"
+      logo: "https://www.polito.it/themes/custom/polito/logo.svg" # Path of the logo image
+      darkLogo: "https://www.polito.it/themes/custom/polito/logo.svg" #(optional), Can optionally show a different logo for dark theme
+    grade: #(optional)
+      scale: CGPA
+      achieved: 107
+      outOf: 110
+    extracurricularActivities: #(optional), supports markdown
+    - Aruba Challenge@PoliTo “D.I.Y. – Digital Identity for Yourself”
+    customSections: #(optional)
+      - name: Thesis
+        content: "Enabling Multi-Provider Service Composition Among Different Kubernetes Clusters"
+      - name: Supervisor
+        content: "Prof. Fulvio RISSO"
+  - name: Bachelor's Degree in Computer Engineering
+    icon: fa-graduation-cap
+    timeframe: 2017-2020
+    institution:
+      name: Polytechnic of Turin
+      url: "https://www.polito.it/"
+      logo: "https://www.polito.it/themes/custom/polito/logo.svg" # Path of the logo image
+      darkLogo: "https://www.polito.it/themes/custom/polito/logo.svg" #(optional), Can optionally show a different logo for dark theme
+    grade: #(optional)
+      scale: CGPA
+      achieved: 93
+      outOf: 110
+  - name: High School Diploma
+    icon: fa-graduation-cap
+    timeframe: 2012-2017
+    institution:
+      name: "Liceo Classico e Scientifico Statale Pellico‑Peano Cuneo"
+      url: "https://liceocuneo.it/"
+      logo: "https://liceocuneo.it/wp-content/uploads/2024/04/Logo-Liceo-Cuneo.png" # Path of the logo image
+      darkLogo: "https://liceocuneo.it/wp-content/uploads/2024/04/Logo-Liceo-Cuneo.png" #(optional), Can optionally show a different logo for dark theme

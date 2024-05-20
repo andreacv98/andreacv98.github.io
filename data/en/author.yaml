@@ -1,0 +1,16 @@
+name: "Andrea Colli-Vignarelli"
+nickname: "Andrea"
+greeting: "Hi, I am"
+image: "images/author/andrea.jpg"
+
+contactInfo:
+  github: andreacv98
+  linkedin: andreacolliv/
+
+# some summary about what you do
+summary:
+  - I am a Developer
+  - I am a Cloud Engineer
+  - I love cloud
+  - I work on cloud development
+  - I love to work with some fun projects

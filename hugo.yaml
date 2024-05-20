@@ -12,3 +12,43 @@ module:
     target: static/files
   - source: ./node_modules/katex/dist/fonts
     target: static/fonts
+
+background: "images/name-of-your-background-image.jpg"
+
+# Manage languages
+languages:
+  en:
+    languageName: English
+    weight: 1
+  it:
+    languageName: Italian
+    weight: 2
+
+# At least HTML and JSON are required for the main HTML content and
+# client-side JavaScript search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# Enable global emoji support
+enableEmoji: true
+
+# Site parameters
+params:
+  # GitHub repo URL of your site
+  gitRepo: https://github.com/andreacv98/andreacv98.github.io
+
+  features:
+    # Enable portfolio section
+    portfolio:
+      enable: true
+    # Enable Table of contents in reading page
+    toc:
+      enable: true
+    darkMode:
+      enable: true
+  # Configure footer
+  footer:
+    enable: true

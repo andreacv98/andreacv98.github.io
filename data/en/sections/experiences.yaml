@@ -1,0 +1,59 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Netgroup @ DAUIN - Polytechnic of Turin
+    url: "https://www.polito.it/"
+    location: Turin, Italy
+    logo: https://www.polito.it/themes/custom/polito/logo.svg
+    darklogo: https://www.polito.it/themes/custom/polito/logo.svg
+    overview: The Computer Networks Group (NetGroup) is a research group focused on computer networks. It is involved in several teaching activities (courses), research projects (both academic and applied research), and consulting activities. 
+  positions:
+  - designation: Research Fellow
+    start: Oct 2023
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Multi cluster resource sharing
+    - Study and development of protocol for communication between clusters to offer computational resources (REAR)
+    - "Contribution to open-source project related to european project: FLUIDOS"
+
+- company:
+    name: TOP-IX Consortium
+    url: "https://www.top-ix.org/it/home/"
+    location: Turin, Italy
+    logo: https://www.top-ix.org/wp-content/uploads/2019/11/05_Main-logo-e1575451686280.png
+    darklogo: https://www.top-ix.org/wp-content/uploads/2019/11/05_Main-logo-e1575451686280.png
+    overview: "The TOP-IX Consortium has been active for more than ten years and combines three focal points with itself: infrastructure, innovation and technology."
+  positions:
+  - designation: Master Thesis Student
+    start: Oct 2022
+    end: Jun 2023
+    responsibilities:
+    - ’Enabling multi-provider service composition among different kubernetes clusters’
+    - Study and development of a model for integrating third-party services into one’s own Kubernetes cluster in a federation of clusters context (GAIA-X project)
+    - GoLang, Javascript, Liqo, Open Service Broker API protocol, OpenID Connect protocol and Keycloak
+
+- company:
+    name: Intern Student
+    url: "https://linksfoundation.com/"
+    location: Turin, Italy
+    logo: https://linksfoundation.com/wp-content/uploads/2021/07/ES_logo-LINKS_Positivo_4c.png
+    darklogo: https://linksfoundation.com/wp-content/uploads/2021/07/ES_logo-LINKS_Positivo_4c.png
+    overview: LINKS is a Foundation established through an agreement between Compagnia di San Paolo and Politecnico di Torino that has been working for more than 20 years at the national and international level in the field of digital transformation with applied research, innovation and technology transfer activities.
+  positions:
+  - designation: Intern
+    start: Mar 2020
+    end: Jul 2020
+    responsibilities:
+    - ’Widget development on Thingsboard and its integration on an existing iPOPO platform’
+    - Map widget that connects to the underlying smart home platform developed with iPOPO
+    - Python, Javascript, iPOPO (OSGi), Thingsboard

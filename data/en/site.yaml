@@ -1,0 +1,13 @@
+# Copyright Notice
+copyright: © 2024 Copyright.
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: Portfolio of Andrea Colli-Vignarelli.
+
+# Specify OpenGraph Headers
+openGraph:
+  title: John's Blog
+  type: website
+  description: Portfolio and personal blog of John Doe.
+  image: images/author/andrea.jpg
+  url: https://andreacv98.github.io/

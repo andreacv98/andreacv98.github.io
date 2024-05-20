@@ -1,0 +1,66 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Research Fellow
+# your company information
+company:
+  name: Polytechnic of Turin
+  url: "https://www.polito.it/"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a passionate cloud engineer, currently working as Reasearch Fellow focusing on open source project and technologies such as [Kubernetes](https://kubernetes.io/). I write code, test new software, technologies and in the free time I am a passionate gamer'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/andreacv98"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/5784348/andrea-colli-vignarelli"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/andreacolliv/"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 75
+  color: blue
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 85
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Hard Working
+  percentage: 80
+  color: orange
+
+- type: certification
+  name: "Cambridge English: First (FCE)"
+  url: "https://www.cambridgeenglish.org/it/exams-and-tests/first/"
+  badge: "https://media.licdn.com/dms/image/C4E0BAQF764moHT29Og/company-logo_200_200/0/1650876513245/cambridge_university_press_assessment_english_logo?e=1724284800&v=beta&t=P6KtK6I-ebTjM6i-l1_bBiaS9RfWaz3qqIsNiOCvTdw"
+
+- type: certification
+  name: Challenge@PoliTO
+  url: "https://openbadges.bestr.it/public/assertions/xP-YwXABRFq6jsQAe70eIw"
+  badge: "https://bestr.it/filemanager/show/1b1882e5-2876-4867-af7e-e5976b95e5d7.png"

@@ -1,0 +1,106 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  url: "https://kubernetes.io/"
+
+- name: Go Development
+  logo: /images/sections/skills/go.png
+  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  url: "https://golang.org/"
+
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "Deployment and management of bare metal platform for cloud computing based on Kubernetes"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  url: "https://www.docker.com/"
+
+- name: Prometheus
+  logo: /images/sections/skills/prometheus.png
+  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+  url: "https://prometheus.io/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  url: "https://git-scm.com/"
+
+- name: C++
+  logo: /images/sections/skills/c++.png
+  summary: "Know basic C/C++ programming. Used for multi thread programming, system programming and medium advanced projects"
+
+- name: Java
+  logo: /images/sections/skills/java.svg
+  summary: "Java is one of the first OOP languages I learned. Used for academic projects and some personal projects."
+
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: "I ahve used Python during my bachelor's interniship, concerning asyncrounous programming. Used for automation, IoT interaction and web development."
+
+- name: BASH
+  logo: /images/sections/skills/bash.svg
+  summary: "Bash is my go-to language for scripting. Used for automation, software installation and quick system management."
+
+- name: Javascript
+  logo: /images/sections/skills/javascript.png
+  summary: "Javascript is my go-to language for web development. Used for frontend and backend development, associated with frameworks."
+
+- name: React.js
+  logo: /images/sections/skills/react.svg
+  summary: "React.js is my favourite and first choice as framework for frontend development. Used for web development, web applications and web services in different projects, both personal and professional."
+
+- name: Node.js
+  logo: /images/sections/skills/nodejs.svg
+  summary: "Node.js was used for quick backend development few academic projects."
+
+- name: Bootstrap React
+  logo: /images/sections/skills/bootstrap-react.svg
+  summary: "Associated with React.js framework, Bootstrap React have been used for quick and nice frontend development."
+
+- name: Ansible
+  logo: /images/sections/skills/ansible.svg
+  summary: "I know Ansible thanks to automation of set up of a set of machines for a work project, concerning the installation and configuration of cluster kubernetes."
+
+- name: Kubespray
+  logo: /images/sections/skills/kubespray.png
+  summary: "Kubespray is a tool that I used for the installation of a kubernetes cluster on a set of machines."
+
+- name: Wireshark
+  logo: /images/sections/skills/wireshark.png
+  summary: "Thanks to my academic background of computer networks, I started using Wireshark for the analysis of network packets, since then I used it for debugging of low level network applications and issues."
+
+- name: GitOps
+  logo: /images/sections/skills/gitops.png
+  summary: "GitOps is a methodology that I started using for the management of kubernetes controllers developed and then distributed in an open source project."
+
+- name: Postman
+  logo: /images/sections/skills/postman.svg
+  summary: "Postman is a tool that I used for the testing of REST APIs, both for personal and professional projects."
+
+- name: Liqo
+  logo: /images/sections/skills/liqo.svg
+  summary: "Starting from the problem of the federation of kubernetes clusters in my master's thesis, I started using Liqo for the integration of services between different clusters. Now it is a central project in my work."
+
+- name: Proxmox
+  logo: /images/sections/skills/proxmox.png
+  summary: "Proxmox is a tool that I used for the management of virtual machines at my work."
+
