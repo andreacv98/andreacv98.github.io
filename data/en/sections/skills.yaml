@@ -32,12 +32,12 @@ skills:
 
 - name: Prometheus
   logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+  summary: "Capable of setup, configure Prometheus metrics."
   url: "https://prometheus.io/"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  summary: "Using as the main operating system for work. Capable of writing bash/shell scripts."
 
 - name: Git
   logo: /images/sections/skills/git.png
@@ -46,7 +46,7 @@ skills:
 
 - name: C++
   logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for multi thread programming, system programming and medium advanced projects"
+  summary: "Low-level knowledge in C/C++ for general prgramming and algorithms and data structures. Used for multi thread programming, system programming and medium advanced projects"
 
 - name: Java
   logo: /images/sections/skills/java.svg
