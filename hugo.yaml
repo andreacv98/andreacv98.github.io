@@ -21,7 +21,7 @@ languages:
     languageName: English
     weight: 1
   it:
-    languageName: Italian
+    languageName: Italiano
     weight: 2
 
 # At least HTML and JSON are required for the main HTML content and

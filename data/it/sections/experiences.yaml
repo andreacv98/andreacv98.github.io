@@ -1,0 +1,58 @@
+# section information
+section:
+  name: Esperienze
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Netgroup @ DAUIN - Politecnico di Torino
+    url: "https://www.polito.it/"
+    location: Turin, Italy
+    logo: https://www.polito.it/themes/custom/polito/logo.svg
+    darklogo: https://www.polito.it/themes/custom/polito/logo.svg
+    overview: Il Gruppo Reti di Computer (NetGroup) è un gruppo di ricerca focalizzato sulle reti di computer. È coinvolto in diverse attività di insegnamento (corsi), progetti di ricerca (sia accademica che applicata) e attività di consulenza. 
+  positions:
+  - designation: Assegnista di Ricerca
+    start: Oct 2023
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Condivisione di risorse in più cluster
+    - Studio e sviluppo di un protocollo per la comunicazione tra cluster per offrire risorse computazionali (REAR)
+    - "Contributo al progetto open-source legato al progetto europeo: FLUIDOS"
+
+- company:
+    name: TOP-IX Consortium
+    url: "https://www.top-ix.org/it/home/"
+    location: Turin, Italy
+    logo: https://www.top-ix.org/wp-content/uploads/2019/11/05_Main-logo-e1575451686280.png
+    darklogo: https://www.top-ix.org/wp-content/uploads/2019/11/05_Main-logo-e1575451686280.png
+    overview: "Il Consorzio TOP-IX è attivo da oltre dieci anni e riunisce in sé tre punti focali: infrastrutture, innovazione e tecnologia."
+  positions:
+  - designation: Studente di tesi magistrale
+    start: Oct 2022
+    end: Jun 2023
+    responsibilities:
+    - 'Abilitazione della composizione di servizi multi-provider tra diversi cluster Kubernetes'
+    - Studio e sviluppo di un modello per l'integrazione di servizi di terze parti nel proprio cluster Kubernetes in un contesto di federazione di cluster (progetto GAIA-X)
+    - GoLang, Javascript, Liqo, protocollo API Open Service Broker, protocollo OpenID Connect e Keycloak
+- company:
+    name: Studente tirocinante
+    url: "https://linksfoundation.com/"
+    location: Turin, Italy
+    logo: https://linksfoundation.com/wp-content/uploads/2021/07/ES_logo-LINKS_Positivo_4c.png
+    darklogo: https://linksfoundation.com/wp-content/uploads/2021/07/ES_logo-LINKS_Positivo_4c.png
+    overview: LINKS è una Fondazione nata da un accordo tra la Compagnia di San Paolo e il Politecnico di Torino che da oltre 20 anni opera a livello nazionale e internazionale nel campo della trasformazione digitale con attività di ricerca applicata, innovazione e trasferimento tecnologico.
+  positions:
+  - designation: Intern
+    start: Mar 2020
+    end: Jul 2020
+    responsibilities:
+    - Sviluppo di un widget su Thingsboard e sua integrazione su una piattaforma iPOPO esistente
+    - Widget cartografico che si connette alla piattaforma di smart home sottostante sviluppata con iPOPO
+    - Python, Javascript, iPOPO (OSGi), Thingsboard
