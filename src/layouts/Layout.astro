@@ -1,0 +1,83 @@
+---
+import '../styles/global.css';
+import type { Locale, PortfolioContent } from '../data/portfolio';
+
+interface Props {
+  locale: Locale;
+  content: PortfolioContent;
+}
+
+const { locale, content } = Astro.props;
+---
+
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- MANDATORY: Declare support for both light and dark themes -->
+    <meta name="color-scheme" content="light dark" />
+    <script is:inline>
+      try {
+        document.querySelector('meta[name="color-scheme"]').content =
+          localStorage.getItem('color-scheme') ?? 'light dark';
+      } catch {}
+    </script>
+    <title>{content.meta.title}</title>
+    <meta name="description" content={content.meta.description} />
+
+    <!-- OpenGraph -->
+    <meta property="og:title" content={content.meta.title} />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content={content.meta.description} />
+    <meta property="og:image" content="https://andreacv98.github.io/images/andrea.jpg" />
+    <meta property="og:url" content="https://andreacv98.github.io/" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <slot />
+    <script>
+      const meta = document.querySelector<HTMLMetaElement>('meta[name="color-scheme"]');
+      const btn = document.getElementById('theme-toggle');
+
+      function getRenderedScheme(): 'light' | 'dark' {
+        const current = meta?.content;
+        if (current === 'light' || current === 'dark') return current;
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+
+      btn?.addEventListener('click', () => {
+        if (!meta) return;
+        const sys: 'light' | 'dark' = window.matchMedia('(prefers-color-scheme: dark)').matches
+          ? 'dark'
+          : 'light';
+        const target: 'light' | 'dark' = getRenderedScheme() === 'dark' ? 'light' : 'dark';
+
+        if (target === sys) {
+          try {
+            localStorage.removeItem('color-scheme');
+          } catch {}
+          meta.content = 'light dark';
+        } else {
+          try {
+            localStorage.setItem('color-scheme', target);
+          } catch {}
+          meta.content = target;
+        }
+      });
+
+      window.addEventListener('storage', (e) => {
+        if (e.key === 'color-scheme' && meta) {
+          meta.content = e.newValue ?? 'light dark';
+        }
+      });
+    </script>
+  </body>
+</html>
